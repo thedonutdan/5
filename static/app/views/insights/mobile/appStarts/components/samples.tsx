@@ -110,6 +110,7 @@ const EventSplitContainer = styled('div')`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: ${space(1.5)};
+  overflow: hidden;
 `;
 
 const Controls = styled('div')`
